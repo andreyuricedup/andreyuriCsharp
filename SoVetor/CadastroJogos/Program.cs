@@ -40,11 +40,23 @@ namespace CadastroJogos
                     for (int i = 0; i < vetJ.Length; i++)
                     {
                         Console.WriteLine($"Posicao: {i} | Nome do jogo: {vetJ[i]}");
-                        
+
                     }
 
                     Console.WriteLine("Para continuar, pressione a tecla Enter ");
                     Console.ReadKey();
+                }
+                else if (opcao == 3)
+                {
+                    for (int i = 0; i < vetJ.Length; i++)
+                    {
+                        Console.WriteLine($"Informe o jogo que deseja atualizar: ");
+                        Console.ReadKey();
+                        
+                    }
+                }
+                else if (opcao == 4)
+                { 
 
                 }
             } while (true);
